@@ -13,19 +13,19 @@ struct ContentView: View {
             JournalView()
                 .tabItem {
                     Image(systemName: "book.fill")
-                    Text("Journal")
+//                    Text("Journal")
                 }
             
             WriteView()
                 .tabItem {
                     Image(systemName: "pencil")
-                    Text("Write")
+//                    Text("Write")
                 }
             
             ProfileView()
                 .tabItem {
                     Image(systemName: "gearshape.fill")
-                    Text("Profile")
+//                    Text("Profile")
                 }
         }
     }
